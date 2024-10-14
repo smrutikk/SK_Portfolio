@@ -399,6 +399,7 @@ body {
     opacity: 0; /* Start hidden */
     visibility: hidden; /* Prevents interaction until shown */
     animation: fadeInUp 4s forwards; /* Ensure it plays the fadeInUp animation */
+    text-align: center;
 }
 
 .project-card h3 {
