@@ -375,6 +375,8 @@ body {
     gap: 20px;
 }
 
+
+
 @media (max-width: 768px) {
     .projects-container {
         grid-template-columns: repeat(2, 1fr); /* Adjusts to 2 columns on smaller screens */
@@ -431,6 +433,21 @@ body {
 .project-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-card .project-butn{
+    background-color: var(--main-color); /* Button color for emphasis */
+    color: var(--primary-color);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.project-butn:hover {
+    background-color: var(--secondary-color); /* Hover effect */
+    transform: scale(1.05);
 }
 
 @keyframes fadeInUp {
